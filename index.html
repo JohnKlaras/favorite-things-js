@@ -2,108 +2,95 @@
 <html>
 
   <head>
-
-
-    <sript src="js/jquery-1.11.3.js"></script>
-    <script src="js/scripts.js"></script>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <title>These are a few of your favorite things</title>
-
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+      <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+      <script src="js/jquery-1.11.3.js"></script>
+      <script src="js/scripts.js"></script>
+      <title>These are a few of your favorite things</title>
   </head>
-
   <body>
-    <h1>Let's make a list of your favorite things, shall we? </h1>
-
     <div class="container">
+      <h1>Let's make a list of your favorite things, shall we? </h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="name">Hey you, what's your name?</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="animal">What's your favorite animal?</label>
+            <input id="animal" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="aRhyme">List another favorite thing that rhymes with your favorite animal.</label>
+            <input id="aRhyme" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="treat">What's your favorite tasty treat?</label>
+            <input id="treat" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="tRhyme">What do you like that rhymes with your favorite treat? </label>
+            <input id="tRhyme" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="color">What's your favorite color?</label>
+            <input id="color" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="clothing">What's your favorite article of clothing?</label>
+            <input id="clothing" class="form-control" type="text">
+          </div>
 
-      <form>
+          <div class="form-group">
+            <label for="feature">What would you say is your most attractive feature?</label>
+            <input id="feature" class="form-control" type="text">
+          </div>
 
-        <div class="form-group">
-          <label for="name">Hey you, what's your name?</label>
-          <input id="name" class="form-control" type="text">
-        </div>
+          <div class="form-group">
+            <label for="noun">Tell me one of your favorite nouns.</label>
+            <input id="noun" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="verb">Almost done... I just need a verb you really like.</label>
+            <input id="verb" class="form-control" type="text">
+          </div>
 
-        <div class="form-group">
-          <label for="animal">What's your favorite animal?</label>
-          <input id="animal" class="form-control" type="text">
-        </div>
+          <button type="submit" class="btn">Give me my list, please.</button>
+        </form>
+      </div>
 
-        <div class="form-group">
-          <label for="aRhyme">List another favorite thing that rhymes with your favorite animal.</label>
-          <input id="aRhyme" class="form-control" type="text">
-        </div>
 
-        <div class="form-group">
-          <label for="treat">What's your favorite tasty treat?</label>
-          <input id="treat" class="form-control" type="text">
-        </div>
+      <div id="song">
+        <h1>Oh no! You've been tricked into a sing-along!</h1>
 
-        <div class="form-group">
-          <label for="tRhyme">What do you like that rhymes with your favorite treat? </label>
-          <input id="tRhyme" class="form-control" type="text">
-        </div>
+        <h2>My Favorite Things</h2>
 
-        <div class="form-group">
-          <label for="color">What's your favorite color?</label>
-          <input id="color" class="form-control" type="text">
-        </div>
+        <h4>by Rogers, Hammerstein, and
+          <span class="name"></span>
+        </h4>
 
-        <div class="form-group">
-          <label for="clothing">What's your favorite article of clothing?</label>
-          <input id="clothing" class="form-control" type="text">
-        </div>
+        <p>Raindrops on roses and whiskers on kittens
+          <br> Bright copper kettles and warm woolen mittens
+          <br> Brown paper packages tied up with strings
+          <br> These are a few of my favorite things</p>
 
-        <div class="form-group">
-          <label for="feature">What would you say is your most attractive feature?</label>
-          <input id="feature" class="form-control" type="text">
-      </form>
+        <p>Cream colored ponies and crisp apple streudels
+          <br> Doorbells and sleigh bells and schnitzel with noodles
+          <br> Wild geese that fly with the moon on their wings
+          <br> These are a few of my favorite things</p>
 
-        <div class="form-group">
-          <label for="noun">Tell me one of your favorite nouns.</label>
-          <input id="noun" class="form-control" type="text">
-      </form>
+        <p>Girls in white dresses with blue satin sashes
+          <br> Snowflakes that stay on my nose and eyelashes
+          <br> Silver white winters that melt into springs
+          <br> These are a few of my favorite things</p>
 
-        <div class="form-group">
-          <label for="verb">Almost done... I just need a verb you really like.</label>
-          <input id="verb" class="form-control" type="text">
-      </form>
-
-      <button type="submit" class="btn">Give me my list, please.</button>
-
-    </div>
-
-    <div class="song">
-      <h1>Oh no! You've been tricked into a sing-along!</h1>
-
-      <h2>My Favorite Things</h2>
-
-      <h4>by Rogers, Hammerstein, and <span class="name"></span></h4>
-
-      <p>Raindrops on roses and whiskers on kittens<br>
-        Bright copper kettles and warm woolen mittens<br>
-        Brown paper packages tied up with strings<br>
-        These are a few of my favorite things</p>
-
-      <p>Cream colored ponies and crisp apple streudels<br>
-        Doorbells and sleigh bells and schnitzel with noodles<br>
-        Wild geese that fly with the moon on their wings<br>
-        These are a few of my favorite things</p>
-
-      <p>Girls in white dresses with blue satin sashes<br>
-        Snowflakes that stay on my nose and eyelashes<br>
-        Silver white winters that melt into springs<br>
-        These are a few of my favorite things</p>
-
-      <p>When the dog bites<br>
-        When the bee stings<br>
-        When I'm feeling sad<br>
-        I simply remember my favorite things<br>
-        And then I don't feel so bad</p>
-
-    </div>
-
+        <p>When the dog bites
+          <br> When the bee stings
+          <br> When I'm feeling sad
+          <br> I simply remember my favorite things
+          <br> And then I don't feel so bad</p>
+      </div>
     </div>
   </body>
-
 </html>

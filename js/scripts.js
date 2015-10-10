@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#blanks form").submit(function(event){
+  $(".favThings form").submit(function(event) {
     var nameInput = $("input#name").val();
     var animalInput = $("input#animal").val();
     var aRhyme = $("input#aRhyme").val();
