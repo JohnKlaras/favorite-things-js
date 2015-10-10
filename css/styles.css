@@ -1,13 +1,14 @@
 #song {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin-top: 15px;
-  border: 3px double black;
+  margin-bottom: 15px;
+  border: 4px double black;
   padding: 10px;
   border-radius: 3%;
   color: #582e91;
   font-size: 1.5em;
   font-weight: bold;
-  display: none;
+  /*display: none;*/
   background-image: url(../img/SOM-fade.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,11 +21,19 @@
 
 #song h1 {
   font-family: 'Petit Formal Script', cursive;
-  font-size: 2em;
+  font-size: 3rem;
+  text-align: center;
 }
  #song h2 {
-   font-family: 'Arimo', sans-serif;
+   font-family: 'Raleway', sans-serif;
  }
  #audio {
    margin: 0px 0px 0px 500px;
+ }
+
+ .container {
+   font-family: 'Raleway', sans-serif;
+ }
+ .container h1 {
+   margin-bottom: 18px;
  }
