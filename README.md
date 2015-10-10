@@ -15,7 +15,7 @@ _To view this website, [click here!](http://johnklaras.github.io/favorite-things
 
 ## Technologies Used
 
-_I used Photoshop to do a fancy fade on the pic. I also added an audio player._
+_I used Photoshop to do a fancy fade on the pic. I also added an audio player. Song stolen from YouTube with Audio Hijack and edited in Ableton Live_
 
 ## Known Bugs
 
