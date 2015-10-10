@@ -1,7 +1,7 @@
 # favorite-things-js
 # _Epicodus Favorite Things JQuery Code Review_
 
-##### _This is the Simple JQuery Code Review for Epicodus' Intro to Programming Class, 10-09-2015_
+##### _This is the JQuery Code Review for Epicodus' Intro to Programming Class, 10-09-2015_
 
 #### By _**John (Rick) Klaras**_
 
