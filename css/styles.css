@@ -7,7 +7,7 @@
   color: #582e91;
   font-size: 1.5em;
   font-weight: bold;
-  /*display: none;*/
+  display: none;
   background-image: url(../img/SOM-fade.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,4 +24,7 @@
 }
  #song h2 {
    font-family: 'Arimo', sans-serif;
+ }
+ #audio {
+   margin: 0px 0px 0px 500px;
  }

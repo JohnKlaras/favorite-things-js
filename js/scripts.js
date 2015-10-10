@@ -11,8 +11,6 @@ $(document).ready(function() {
     var nounInput = $("input#noun").val();
     var verbInput = $("input#verb").val();
 
-
-
     $(".name").text(nameInput);
     $(".animal").text(animalInput);
     $(".aRhyme").text(aRhymeInput);
@@ -28,4 +26,10 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+
+    var audio = $("audio")[0];
+  $("nav a").mouseenter(function() {
+    audio.play();
+  });
+
 });
