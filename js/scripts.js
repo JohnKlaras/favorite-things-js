@@ -1,15 +1,17 @@
 $(document).ready(function() {
-  $(".favThings form").submit(function(event) {
+  $("#blanks form").submit(function(event) {
     var nameInput = $("input#name").val();
     var animalInput = $("input#animal").val();
-    var aRhyme = $("input#aRhyme").val();
-    var treat = $("input#treat").val();
-    var tRhyme = $("input#tRhyme").val();
-    var color = $("input#color").val();
-    var clothing = $("input#clothing").val();
-    var feature = $("input#feature").val();
-    var noun = $("input#noun").val();
-    var verb = $("input#verb").val();
+    var aRhymeInput = $("input#aRhyme").val();
+    var treatInput = $("input#treat").val();
+    var tRhymeInput = $("input#tRhyme").val();
+    var colorInput = $("input#color").val();
+    var clothingInput = $("input#clothing").val();
+    var featureInput = $("input#feature").val();
+    var nounInput = $("input#noun").val();
+    var verbInput = $("input#verb").val();
+
+
 
     $(".name").text(nameInput);
     $(".animal").text(animalInput);
@@ -25,6 +27,5 @@ $(document).ready(function() {
     $("#song").show();
 
     event.preventDefault();
-
   });
 });
