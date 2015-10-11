@@ -1,10 +1,16 @@
+/****************
+LIST FORM
+****************/
+
 #list {
   font-family: 'Raleway', sans-serif;
 }
 #list h1 {
   margin-bottom: 18px;
 }
-
+/****************
+FABULOUS SONG DIV
+****************/
 #song {
   font-family: 'Raleway', sans-serif;
   margin-top: 15px;
@@ -34,10 +40,17 @@
  #song h2 {
    font-family: 'Raleway', sans-serif;
  }
-
+ /****************
+ TINY AUDIO PLAYER
+ ****************/
 audio {
   max-width: 45px;
 }
+
+/****************
+BUTTONS
+****************/
+
 .btn-default {
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
