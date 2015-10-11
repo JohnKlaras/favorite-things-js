@@ -10,69 +10,76 @@
   </head>
   <body>
     <div class="container">
-      <h1>Let's make a list of your favorite things, shall we? </h1>
-      <div id="blanks">
-        <form>
-          <div class="form-group">
-            <label for="name">Hey you, what's your name?</label>
-            <input id="name" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="animal">What's your favorite animal?</label>
-            <input id="animal" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="aRhyme">List another favorite thing that rhymes with your favorite animal.</label>
-            <input id="aRhyme" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="treat">What's your favorite tasty treat?</label>
-            <input id="treat" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="tRhyme">What do you like that rhymes with your favorite treat? </label>
-            <input id="tRhyme" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="color">What's your favorite color?</label>
-            <input id="color" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="clothing">What's your favorite article of clothing?</label>
-            <input id="clothing" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="feature">What would you say is your most attractive feature?</label>
-            <input id="feature" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="noun">Tell me one of your favorite nouns.</label>
-            <input id="noun" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="verb">Almost done... I just need a verb you really like.</label>
-            <input id="verb" class="form-control" type="text">
-          </div>
+      <div id="list">
+        <h1>Let's make a list of your favorite things, shall we? </h1>
+        <div id="blanks">
+          <form>
+            <div class="form-group">
+              <label for="name">What's your name?</label>
+              <input id="name" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="animal">What's your favorite animal?</label>
+              <input id="animal" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="aRhyme">List another favorite thing that rhymes with your favorite animal.</label>
+              <input id="aRhyme" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="treat">What's your favorite tasty treat?</label>
+              <input id="treat" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="tRhyme">What do you like that rhymes with your favorite treat? </label>
+              <input id="tRhyme" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="color">What's your favorite color?</label>
+              <input id="color" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="clothing">What's your favorite article of clothing?</label>
+              <input id="clothing" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="feature">What would you say is your most attractive feature?</label>
+              <input id="feature" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="noun">Tell me one of your favorite nouns.</label>
+              <input id="noun" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="verb">Almost done... I just need a verb you really like.</label>
+              <input id="verb" class="form-control" type="text">
+            </div>
 
-          <button type="submit" class="btn">Give me my list, please.</button>
+            <div class="text-center"><button type="submit" class="btn btn-default">Give me my list, please.</button>
+            </div>
+
+          </div>
         </form>
       </div>
 
-
       <div id="song">
+
+        <audio controls="play">
+          <source src="audio/Favorite-things.mp3" type="audio/mpeg"></source>
+        </audio>
 
         <h1>Oh, no! You've Been Lured Into a Sing-Along!</h1>
 
         <h2>My Favorite Things</h2>
 
-        <h4>by Rogers and Hammerstein and
-          <span class="name"></span>
+        <h4>
+          by Rogers and Hammerstein and <span class="name"></span>
         </h4>
 
-        <p>Raindrops on roses and whiskers on <span class="animal"></span>s<br>
-        Bright copper kettles and warm woolen <span class="aRhyme"></span>s<br>
-        Brown paper packages tied up with strings<br>
-        These are a few of my favorite things</p>
+          <p>Raindrops on roses and whiskers on <span class="animal"></span>s<br>
+          Bright copper kettles and warm woolen <span class="aRhyme"></span>s<br>
+          Brown paper packages tied up with strings<br>
+          These are a few of my favorite things</p>
 
          <p>Cream colored ponies and crisp apple <span class="treat"></span><br>
           Doorbells and sleigh bells and schnitzel with <span class="tRhyme"></span>s<br>
@@ -84,16 +91,13 @@
          Silver white winters that melt into springs<br>
          These are a few of my favorite things<br>
 
-        <p>When the <span class="noun"></span> bites<br>
-        When the bee <span class="verb"></span>s<br>
-        When I'm feeling sad<br>
-        I simply remember my favorite things<br>
-        And then I don't feel so bad<br>
+          <p>When the <span class="noun"></span> bites<br>
+          When the bee <span class="verb"></span>s<br>
+          When I'm feeling sad<br>
+          I simply remember my favorite things<br>
+          And then I don't feel so bad<br>
 
-        <div id="audio">
-          <audio controls>
-            <source src="audio/Favorite-things.mp3" type="audio/mpeg"></source>
-          </audio>
+        <div class="text-center"><a href="file:///Users/Rick/Desktop/favorite-things-js/index.html" class="btn btn-default">Try Again</button>
         </div>
 
       </div>

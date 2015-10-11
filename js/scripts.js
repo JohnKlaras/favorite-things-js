@@ -23,13 +23,9 @@ $(document).ready(function() {
     $(".verb").text(verbInput);
 
     $("#song").show();
+    $("#list").hide();
 
     event.preventDefault();
-  });
-
-    var audio = $("audio")[0];
-  $("nav a").mouseenter(function() {
-    audio.play();
   });
 
 });
