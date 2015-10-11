@@ -22,6 +22,7 @@ $(document).ready(function() {
     $(".noun").text(nounInput);
     $(".verb").text(verbInput);
 
+    //THE OL' SWITCHEROO
     $("#song").show();
     $("#list").hide();
 

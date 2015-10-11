@@ -12,6 +12,9 @@ LIST FORM
 FABULOUS SONG DIV
 ****************/
 #song {
+
+  display: none;
+
   font-family: 'Raleway', sans-serif;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -21,7 +24,6 @@ FABULOUS SONG DIV
   color: #582e91;
   font-size: 1.5em;
   font-weight: bold;
-  display: none;
   background-image: url(../img/SOM-fade.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,4 +56,5 @@ BUTTONS
 .btn-default {
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
+
 }
